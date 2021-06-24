@@ -76,6 +76,18 @@ const Navbar = class extends React.Component {
                 Form Examples
               </Link>
             </div>
+            <div className="navbar-end has-text-centered">
+              <a
+                className="navbar-item"
+                href="epic-bell-c1f905.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
+                  <img src={github} alt="Github" />
+                </span>
+              </a>
+            </div>
           </div>
         </div>
       </nav>
